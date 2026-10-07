@@ -1,0 +1,14 @@
+# Compilación
+/target
+
+# Configuración local (se autogenera en el primer arranque)
+rusterm.conf
+
+# Editores / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store

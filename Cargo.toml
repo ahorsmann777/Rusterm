@@ -1,0 +1,25 @@
+[package]
+name = "rusterm"
+version = "0.1.0"
+edition = "2021"
+description = "Emulador de terminal renderizado por GPU escrito en Rust"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ahorsmann777/rusterm"
+keywords = ["terminal", "emulator", "gpu", "wgpu", "pty"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+winit = "0.29"
+wgpu = "22.1"
+portable-pty = "0.8"
+alacritty_terminal = "0.26"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+env_logger = "0.11"
+log = "0.4"
+crossbeam-channel = "0.5"
+raw-window-handle = "0.6"
+glyphon = "0.6"
+pollster = "0.3"
+smol_str = "0.2"
